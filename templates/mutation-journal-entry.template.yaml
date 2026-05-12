@@ -1,0 +1,11 @@
+mutation_id: MUT-0001
+created_at: YYYY-MM-DDTHH:MM:SSZ
+initiated_by: human-or-ai
+mutation_category: structural
+risk_level: medium
+affected_artifacts: []
+related_snapshots: []
+rollback_reference: none
+summary: >
+  Describe the operational mutation.
+resulting_status: experimental
