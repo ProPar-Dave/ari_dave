@@ -1,0 +1,16 @@
+contract_version: 1.0.0
+contract_id: CONTRACT-EVENT-LINEAGE
+purpose: >
+  Preserve explainable operational causality across mutation events.
+requirements:
+  - preserve_event_type
+  - preserve_timestamp
+  - preserve_initiating_actor
+  - preserve_affected_artifacts
+  - preserve_related_snapshots
+  - preserve_resulting_state
+applies_to:
+  - mutation-events
+  - promotion-events
+  - rollback-events
+status: active
