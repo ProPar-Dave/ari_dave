@@ -1,0 +1,12 @@
+schema_version: 1.0.0
+relationship_schema:
+  required_fields:
+    - edge_id
+    - relationship_type
+    - source_entity
+    - target_entity
+  recommended_fields:
+    - causality_strength
+    - trust_impact
+    - created_at
+    - notes
