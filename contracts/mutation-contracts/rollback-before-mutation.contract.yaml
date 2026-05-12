@@ -1,0 +1,15 @@
+contract_version: 1.0.0
+contract_id: CONTRACT-ROLLBACK-BEFORE-MUTATION
+purpose: >
+  Establish minimum requirements before meaningful operational mutation.
+requirements:
+  - identify_affected_artifacts
+  - establish_or_verify_snapshot
+  - classify_risk_level
+  - preserve_lineage
+  - define_rollback_reference
+applies_to:
+  - runtime-mutation
+  - deployment-mutation
+  - schema-mutation
+status: active
