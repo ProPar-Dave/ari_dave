@@ -1,0 +1,20 @@
+patterns_version: 1.0.0
+last_updated: 2026-05-12
+patterns:
+  - pattern_id: PATTERN-MUTATION-TO-DRIFT
+    starts_with: EVENT-MUTATED
+    ends_with: STATE-DRIFTED
+    purpose: >
+      Explain how operational mutation resulted in drift.
+
+  - pattern_id: PATTERN-ROLLBACK-TO-RECOVERY
+    starts_with: EVENT-ROLLED-BACK
+    ends_with: STATE-RECOVERED
+    purpose: >
+      Explain how rollback restored operational continuity.
+
+  - pattern_id: PATTERN-PROMOTION-TO-CANONICAL
+    starts_with: EVENT-PROMOTED
+    ends_with: STATE-CANONICAL
+    purpose: >
+      Explain how trust and governance promotion occurred.
