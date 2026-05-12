@@ -1,0 +1,22 @@
+validation_rules_version: 1.0.0
+last_updated: 2026-05-12
+rules:
+  - rule_id: VAL-CANONICAL-REQUIRES-LINEAGE
+    severity: error
+    applies_to: canonical-entities
+    requirement: lineage-visible
+
+  - rule_id: VAL-RUNTIME-MUTATION-REQUIRES-ROLLBACK
+    severity: error
+    applies_to: runtime-mutations
+    requirement: rollback-reference-present
+
+  - rule_id: VAL-TRUST-TRANSITION-REQUIRES-EVIDENCE
+    severity: warning
+    applies_to: trust-transitions
+    requirement: validation-basis-visible
+
+  - rule_id: VAL-DRIFT-REQUIRES-RECONCILIATION
+    severity: warning
+    applies_to: drifted-runtime-states
+    requirement: reconciliation-path-visible
