@@ -1,0 +1,22 @@
+rules_version: 1.0.0
+last_updated: 2026-05-12
+rules:
+  - rule_id: GRAPH-STABLE-IDENTITY
+    description: >
+      Meaningful entities should preserve stable identity across evolution.
+
+  - rule_id: GRAPH-TYPED-RELATIONSHIPS
+    description: >
+      Relationships should use governed relationship types.
+
+  - rule_id: GRAPH-LINEAGE-PRESERVATION
+    description: >
+      Entity evolution should preserve explainable lineage.
+
+  - rule_id: GRAPH-TRUST-VISIBILITY
+    description: >
+      Trust transitions should remain explicit and traceable.
+
+  - rule_id: GRAPH-SEMANTIC-CONTINUITY
+    description: >
+      Semantic intent should remain explainable across graph evolution.
