@@ -1,0 +1,9 @@
+runtime_binding_id: RBIND-SUPABASE-0001
+artifact_id: ART-SUPABASE-EDGE-0001
+runtime_system: SYS-SUPABASE-001
+environment: staging
+projection_type: deployed-function
+runtime_location: supabase-edge-functions
+validation_method: endpoint-health-check
+drift_detection_method: source-compare
+last_verified: null
