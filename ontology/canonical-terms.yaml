@@ -1,0 +1,32 @@
+ontology_version: 1.0.0
+last_updated: 2026-05-12
+terms:
+  - canonical_term: canonical
+    definition: >
+      Artifact state approved for trusted operational dependency usage.
+    aliases:
+      - trusted-reference
+      - authoritative-state
+    status: active
+
+  - canonical_term: rollback-boundary
+    definition: >
+      A recoverable operational checkpoint established before meaningful mutation.
+    aliases:
+      - recovery-point
+      - rollback-point
+    status: active
+
+  - canonical_term: semantic-continuity
+    definition: >
+      Preservation of operational meaning across implementations and runtime evolution.
+    aliases:
+      - meaning-preservation
+    status: active
+
+  - canonical_term: operational-memory
+    definition: >
+      Preserved organizational ability to reconstruct, explain, and recover operational state.
+    aliases:
+      - continuity-memory
+    status: active
