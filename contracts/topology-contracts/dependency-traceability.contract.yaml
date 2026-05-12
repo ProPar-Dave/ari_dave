@@ -1,0 +1,15 @@
+contract_version: 1.0.0
+contract_id: CONTRACT-DEPENDENCY-TRACEABILITY
+purpose: >
+  Preserve explainable dependency relationships between operational artifacts.
+requirements:
+  - preserve_relationship_type
+  - preserve_dependency_direction
+  - identify_operational_scope
+  - preserve_related_artifacts
+  - preserve_lineage_context
+applies_to:
+  - dependency-registration
+  - canonical-promotion
+  - runtime-mutation
+status: active
