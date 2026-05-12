@@ -1,0 +1,16 @@
+contract_version: 1.0.0
+contract_id: CONTRACT-STABLE-IDENTITY
+purpose: >
+  Preserve stable operational identity across artifact evolution and runtime mutation.
+requirements:
+  - preserve_unique_identifier
+  - preserve_lineage_across_versions
+  - preserve_related_events
+  - preserve_related_snapshots
+  - preserve_relationship_context
+applies_to:
+  - artifacts
+  - runtime-systems
+  - invariants
+  - operational-events
+status: active
