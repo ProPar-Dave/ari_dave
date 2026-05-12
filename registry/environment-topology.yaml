@@ -1,0 +1,20 @@
+registry_version: 1.0.0
+last_updated: 2026-05-12
+environments:
+  - environment_id: ENV-DEV-001
+    name: development
+    classification: mutable
+    rollback_required: recommended
+    drift_tolerance: high
+
+  - environment_id: ENV-STAGING-001
+    name: staging
+    classification: validation
+    rollback_required: required
+    drift_tolerance: medium
+
+  - environment_id: ENV-PROD-001
+    name: production
+    classification: canonical-runtime
+    rollback_required: mandatory
+    drift_tolerance: low
