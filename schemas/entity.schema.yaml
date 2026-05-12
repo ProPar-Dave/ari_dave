@@ -1,0 +1,19 @@
+schema_version: 1.0.0
+entity_schema:
+  required_fields:
+    - entity_id
+    - entity_type
+    - name
+    - status
+    - state
+    - created_at
+    - updated_at
+  recommended_fields:
+    - trust_boundary
+    - version
+    - owner
+    - relationships
+    - events
+    - snapshots
+    - contracts
+    - notes
