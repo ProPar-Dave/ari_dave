@@ -1,0 +1,27 @@
+ontology_version: 1.0.0
+last_updated: 2026-05-12
+concepts:
+  - concept_id: GOV-CONTINUITY
+    name: operational-continuity
+    description: >
+      Preservation of explainable, recoverable operational behavior across change.
+
+  - concept_id: GOV-TRUST
+    name: operational-trust
+    description: >
+      Degree to which an artifact or runtime state is considered dependable and explainable.
+
+  - concept_id: GOV-LINEAGE
+    name: lineage-awareness
+    description: >
+      Preservation of ancestry and dependency relationships across operational evolution.
+
+  - concept_id: GOV-SEMANTICS
+    name: semantic-continuity
+    description: >
+      Preservation of intended meaning across implementations and runtime states.
+
+  - concept_id: GOV-RECOVERY
+    name: recovery-confidence
+    description: >
+      Confidence that a prior trusted state can be restored successfully.
