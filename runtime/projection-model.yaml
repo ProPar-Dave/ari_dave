@@ -1,0 +1,12 @@
+model_version: 1.0.0
+last_updated: 2026-05-12
+projection_principles:
+  - Governed entities may project into runtime systems.
+  - Runtime behavior should remain explainable relative to governed intent.
+  - Projection relationships should preserve trust and lineage visibility.
+projection_types:
+  - deployed-function
+  - deployed-policy
+  - deployed-schema
+  - generated-ui
+  - orchestration-runtime
