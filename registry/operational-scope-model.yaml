@@ -1,0 +1,23 @@
+model_version: 1.0.0
+last_updated: 2026-05-12
+scopes:
+  - scope_id: SCOPE-RUNTIME
+    name: runtime-behavior
+
+  - scope_id: SCOPE-DATA
+    name: data-integrity
+
+  - scope_id: SCOPE-REPORTING
+    name: reporting-and-analytics
+
+  - scope_id: SCOPE-AUTH
+    name: authentication-and-authorization
+
+  - scope_id: SCOPE-UX
+    name: user-experience
+
+  - scope_id: SCOPE-FINANCIAL
+    name: financial-impact
+
+  - scope_id: SCOPE-GOVERNANCE
+    name: governance-and-lineage
