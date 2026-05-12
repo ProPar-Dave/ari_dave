@@ -1,0 +1,18 @@
+schema_name: snapshot-schema
+schema_version: 1.0.0
+required_fields:
+  - snapshot_id
+  - system
+  - environment
+  - created_at
+  - created_by
+recommended_fields:
+  - related_artifacts
+  - contains
+  - notes
+snapshot_rules:
+  immutable: true
+  secrets_allowed: false
+  overwrite_allowed: false
+notes: >
+  Snapshots represent immutable rollback boundaries.
