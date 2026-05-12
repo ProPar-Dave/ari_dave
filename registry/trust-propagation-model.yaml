@@ -1,0 +1,18 @@
+model_version: 1.0.0
+last_updated: 2026-05-12
+principles:
+  - principle_id: TRUST-INHERITANCE
+    description: >
+      Low-trust artifacts should not silently elevate downstream trust assumptions.
+
+  - principle_id: TRUST-TRANSITION
+    description: >
+      Trust elevation should preserve lineage and validation evidence.
+
+  - principle_id: TRUST-DEGRADATION
+    description: >
+      Unknown drift or missing lineage may reduce operational trust.
+
+  - principle_id: TRUST-CONSTRAINT
+    description: >
+      Canonical systems should constrain downstream operational assumptions.
