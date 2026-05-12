@@ -1,0 +1,18 @@
+model_version: 1.0.0
+last_updated: 2026-05-12
+drift_categories:
+  - drift_category: DRIFT-DEFINITION
+    description: >
+      Operational meaning changed without governed semantic alignment.
+
+  - drift_category: DRIFT-RUNTIME
+    description: >
+      Runtime behavior diverged from governed operational expectations.
+
+  - drift_category: DRIFT-LINEAGE
+    description: >
+      Artifact ancestry or provenance became incomplete or ambiguous.
+
+  - drift_category: DRIFT-TRUST
+    description: >
+      Operational trust assumptions exceeded verified governance evidence.
