@@ -1,0 +1,22 @@
+registry_version: 1.0.0
+last_updated: 2026-05-12
+capabilities:
+  - capability_id: CAP-ROLLBACK
+    name: rollback-capability
+    description: >
+      Ability to restore a previously trusted operational state.
+
+  - capability_id: CAP-LINEAGE
+    name: lineage-capability
+    description: >
+      Ability to explain operational ancestry and dependencies.
+
+  - capability_id: CAP-SEMANTIC
+    name: semantic-governance-capability
+    description: >
+      Ability to preserve and validate operational meaning.
+
+  - capability_id: CAP-DRIFT
+    name: drift-awareness-capability
+    description: >
+      Ability to detect and explain divergence from governed state.
