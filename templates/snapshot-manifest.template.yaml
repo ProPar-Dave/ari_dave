@@ -1,0 +1,13 @@
+snapshot_id: SNAP-EXAMPLE-20260512-000000
+system: example-system
+environment: staging
+created_at: 2026-05-12T00:00:00Z
+created_by: human
+reason: example snapshot
+related_artifacts: []
+contains:
+  - edge-functions
+  - schema
+  - policies
+notes: >
+  Replace this template content with a real snapshot manifest.
