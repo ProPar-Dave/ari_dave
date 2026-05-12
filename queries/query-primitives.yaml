@@ -1,0 +1,18 @@
+query_model_version: 1.0.0
+last_updated: 2026-05-12
+queries:
+  - query_id: QRY-AFFECTED-BY-DRIFT
+    purpose: >
+      Identify entities downstream of a drifted operational state.
+
+  - query_id: QRY-CANONICAL-WITHOUT-LINEAGE
+    purpose: >
+      Identify canonical entities missing lineage visibility.
+
+  - query_id: QRY-LOW-ROLLBACK-CONFIDENCE
+    purpose: >
+      Identify systems with weak or unknown rollback confidence.
+
+  - query_id: QRY-TRUST-TRANSITIONS
+    purpose: >
+      Identify recent trust boundary transitions.
