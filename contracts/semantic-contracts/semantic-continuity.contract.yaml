@@ -1,0 +1,15 @@
+contract_version: 1.0.0
+contract_id: CONTRACT-SEMANTIC-CONTINUITY
+purpose: >
+  Preserve operational meaning across implementation and runtime evolution.
+requirements:
+  - preserve_declared_invariants
+  - identify_semantic_changes
+  - preserve_lineage
+  - preserve_governing_references
+  - maintain_explainability
+applies_to:
+  - runtime-mutation
+  - canonical-replacement
+  - ai-regeneration
+status: active
