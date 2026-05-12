@@ -1,0 +1,16 @@
+contract_version: 1.0.0
+contract_id: CONTRACT-TRUST-TRANSITION
+purpose: >
+  Govern operational trust transitions between artifact states.
+requirements:
+  - identify_current_trust_boundary
+  - identify_target_trust_boundary
+  - preserve_lineage
+  - preserve_reviewability
+  - record_validation_basis
+  - record_transition_reason
+applies_to:
+  - promotion
+  - canonicalization
+  - deployment-approval
+status: active
