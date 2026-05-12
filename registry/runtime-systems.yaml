@@ -1,0 +1,14 @@
+registry_version: 1.0.0
+last_updated: 2026-05-12
+systems:
+  - system_id: SYS-SUPABASE-001
+    name: supabase
+    status: active
+    environments:
+      - development
+      - staging
+      - production
+    rollback_required: true
+    drift_sensitive: true
+    notes: >
+      Supabase runtime systems require snapshot-aware mutation governance.
