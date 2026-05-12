@@ -1,0 +1,27 @@
+schema_name: artifact-schema
+schema_version: 1.0.0
+required_fields:
+  - artifact_id
+  - name
+  - type
+  - status
+  - version
+  - owner
+  - source_of_truth
+  - created_at
+  - updated_at
+recommended_fields:
+  - runtime_system
+  - rollback_reference
+  - related_artifacts
+  - notes
+allowed_status_values:
+  - scratch
+  - experimental
+  - candidate
+  - approved
+  - canonical
+  - deprecated
+  - archived
+notes: >
+  This schema defines the minimum expected structure for governed artifacts.
