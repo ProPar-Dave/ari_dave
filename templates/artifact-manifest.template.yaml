@@ -1,0 +1,17 @@
+artifact_id: ART-EXAMPLE-0001
+name: example-artifact
+type: example-type
+status: experimental
+version: 0.1.0
+owner: unassigned
+project: shared
+source_of_truth: github
+runtime_system: none
+created_at: 2026-05-12T00:00:00Z
+updated_at: 2026-05-12T00:00:00Z
+created_by: human
+last_modified_by: human
+related_artifacts: []
+rollback_reference: none
+notes: >
+  Replace this template content with a real artifact manifest.
