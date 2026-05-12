@@ -1,0 +1,17 @@
+contract_version: 1.0.0
+contract_id: CONTRACT-STATE-TRANSITION
+purpose: >
+  Preserve explainable operational state transitions across system evolution.
+requirements:
+  - preserve_prior_state
+  - preserve_transition_reason
+  - preserve_related_events
+  - preserve_related_trust_boundary
+  - preserve_related_snapshots
+  - preserve_resulting_state
+applies_to:
+  - promotion
+  - rollback
+  - recovery
+  - drift-reconciliation
+status: active
