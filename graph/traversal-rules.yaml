@@ -1,0 +1,22 @@
+rules_version: 1.0.0
+last_updated: 2026-05-12
+traversal_rules:
+  - traversal_id: TRAV-UPSTREAM-DEPENDENCIES
+    purpose: >
+      Traverse upstream dependency relationships.
+
+  - traversal_id: TRAV-DOWNSTREAM-IMPACT
+    purpose: >
+      Traverse downstream affected entities and operational scope.
+
+  - traversal_id: TRAV-CAUSAL-CHAIN
+    purpose: >
+      Traverse causally related operational events.
+
+  - traversal_id: TRAV-TRUST-PROPAGATION
+    purpose: >
+      Traverse trust-impacting operational relationships.
+
+  - traversal_id: TRAV-ROLLBACK-PATH
+    purpose: >
+      Traverse recoverable rollback boundaries and trusted snapshots.
