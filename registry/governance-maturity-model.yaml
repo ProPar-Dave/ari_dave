@@ -1,0 +1,32 @@
+model_version: 1.0.0
+last_updated: 2026-05-12
+levels:
+  - level: G0
+    name: unmanaged
+    description: >
+      Operational state exists without structured governance.
+
+  - level: G1
+    name: documented
+    description: >
+      Operational artifacts are documented but weakly governed.
+
+  - level: G2
+    name: lineage-aware
+    description: >
+      Artifact ancestry and provenance are partially preserved.
+
+  - level: G3
+    name: rollback-aware
+    description: >
+      Meaningful rollback boundaries and recovery planning exist.
+
+  - level: G4
+    name: trust-aware
+    description: >
+      Trust boundaries, invariants, and semantic continuity are governed.
+
+  - level: G5
+    name: continuously-governed
+    description: >
+      Governance, recovery, lineage, and drift awareness are continuously validated.
