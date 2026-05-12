@@ -1,0 +1,13 @@
+schema_version: 1.0.0
+state_transition_schema:
+  required_fields:
+    - transition_id
+    - prior_state
+    - resulting_state
+    - transition_reason
+    - created_at
+  recommended_fields:
+    - related_events
+    - related_snapshots
+    - trust_transition
+    - reconciliation_reference
