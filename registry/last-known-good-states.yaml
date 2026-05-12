@@ -1,0 +1,9 @@
+registry_version: 1.0.0
+last_updated: 2026-05-12
+systems:
+  - system: supabase
+    environment: unknown
+    current_lkg_snapshot: unassigned
+    validation_status: unknown
+    notes: >
+      Last known good state has not yet been established.
