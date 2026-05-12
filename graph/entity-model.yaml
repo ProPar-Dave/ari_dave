@@ -1,0 +1,37 @@
+model_version: 1.0.0
+last_updated: 2026-05-12
+purpose: >
+  Define the common graph entity model for ARI governed operational entities.
+entity_principles:
+  - Every meaningful governed object should have a stable entity_id.
+  - Entity identity should survive version changes, state transitions, and runtime evolution.
+  - Entities should carry enough metadata to support rollback, trust, lineage, and semantic continuity.
+entity_categories:
+  - artifact
+  - snapshot
+  - runtime-system
+  - environment
+  - invariant
+  - contract
+  - policy
+  - event
+  - state
+  - trust-boundary
+  - capability
+  - query
+base_fields:
+  - entity_id
+  - entity_type
+  - name
+  - status
+  - state
+  - trust_boundary
+  - version
+  - owner
+  - created_at
+  - updated_at
+  - relationships
+  - events
+  - snapshots
+  - contracts
+  - notes
