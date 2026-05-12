@@ -1,0 +1,26 @@
+ontology_version: 1.0.0
+last_updated: 2026-05-12
+event_types:
+  - event_type: EVENT-CREATED
+    description: >
+      A new governed artifact or operational state was established.
+
+  - event_type: EVENT-MUTATED
+    description: >
+      An existing governed artifact or runtime state was modified.
+
+  - event_type: EVENT-PROMOTED
+    description: >
+      An artifact transitioned to a higher trust or governance state.
+
+  - event_type: EVENT-DEPRECATED
+    description: >
+      An artifact was superseded or marked no longer recommended.
+
+  - event_type: EVENT-ROLLED-BACK
+    description: >
+      A previous operational state was restored.
+
+  - event_type: EVENT-RECOVERED
+    description: >
+      Operational continuity was restored after failure or corruption.
