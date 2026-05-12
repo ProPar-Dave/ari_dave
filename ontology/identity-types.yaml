@@ -1,0 +1,22 @@
+ontology_version: 1.0.0
+last_updated: 2026-05-12
+identity_types:
+  - identity_type: IDENTITY-ARTIFACT
+    description: >
+      Stable identity assigned to a governed artifact.
+
+  - identity_type: IDENTITY-RUNTIME
+    description: >
+      Stable identity assigned to a runtime system or environment.
+
+  - identity_type: IDENTITY-EVENT
+    description: >
+      Stable identity assigned to a meaningful operational event.
+
+  - identity_type: IDENTITY-INVARIANT
+    description: >
+      Stable identity assigned to a governed invariant.
+
+  - identity_type: IDENTITY-TRUST-BOUNDARY
+    description: >
+      Stable identity assigned to a trust classification boundary.
