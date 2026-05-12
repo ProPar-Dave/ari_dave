@@ -1,0 +1,14 @@
+registry_version: 1.0.0
+last_updated: 2026-05-12
+boundaries:
+  - boundary_id: TB-AI-GENERATED-001
+    name: ai-generated-unreviewed
+    trust_level: low
+    description: >
+      AI-generated output that has not yet undergone human operational review.
+
+  - boundary_id: TB-CANONICAL-001
+    name: canonical-reviewed
+    trust_level: high
+    description: >
+      Human-reviewed operational artifacts approved for canonical reference use.
