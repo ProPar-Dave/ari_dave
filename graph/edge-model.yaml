@@ -1,0 +1,21 @@
+model_version: 1.0.0
+last_updated: 2026-05-12
+purpose: >
+  Define relationship semantics between ARI entities.
+edge_principles:
+  - Relationships should be typed.
+  - Relationship direction should remain explicit.
+  - Relationship meaning should be semantically stable.
+edge_fields:
+  - edge_id
+  - relationship_type
+  - source_entity
+  - target_entity
+  - causality_strength
+  - trust_impact
+  - created_at
+  - notes
+supported_causality_strength:
+  - confirmed
+  - probable
+  - suspected
