@@ -1,0 +1,22 @@
+readiness_checks_version: 1.0.0
+last_updated: 2026-05-12
+checks:
+  - readiness_check_id: CHECK-LINEAGE-COVERAGE
+    purpose: >
+      Verify critical entities preserve lineage visibility.
+
+  - readiness_check_id: CHECK-ROLLBACK-COVERAGE
+    purpose: >
+      Verify meaningful runtime systems preserve rollback boundaries.
+
+  - readiness_check_id: CHECK-TRUST-VISIBILITY
+    purpose: >
+      Verify trust boundaries and transitions remain explainable.
+
+  - readiness_check_id: CHECK-DRIFT-AWARENESS
+    purpose: >
+      Verify runtime drift and reconciliation visibility.
+
+  - readiness_check_id: CHECK-SEMANTIC-CONTINUITY
+    purpose: >
+      Verify semantic intent remains explainable across operational evolution.
