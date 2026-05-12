@@ -1,0 +1,9 @@
+runtime_binding_id: RBIND-0001
+artifact_id: ART-EXAMPLE-0001
+runtime_system: SYS-EXAMPLE-0001
+environment: development
+projection_type: deployed-function
+runtime_location: undefined
+validation_method: undefined
+drift_detection_method: undefined
+last_verified: null
