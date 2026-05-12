@@ -1,0 +1,22 @@
+ontology_version: 1.0.0
+last_updated: 2026-05-12
+state_types:
+  - state_type: STATE-EXPERIMENTAL
+    description: >
+      Operationally untrusted exploratory state.
+
+  - state_type: STATE-CANDIDATE
+    description: >
+      Reviewable operational state pending validation.
+
+  - state_type: STATE-CANONICAL
+    description: >
+      Trusted operational reference state.
+
+  - state_type: STATE-DRIFTED
+    description: >
+      Runtime or semantic state diverging from governed expectations.
+
+  - state_type: STATE-RECOVERED
+    description: >
+      Operational state restored from a previously trusted recovery boundary.
