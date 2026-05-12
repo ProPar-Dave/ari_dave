@@ -1,0 +1,13 @@
+contract_version: 1.0.0
+contract_id: CONTRACT-CANONICAL-REVIEW
+purpose: >
+  Prevent unreviewed operational artifacts from silently becoming canonical.
+requirements:
+  - human_review_required
+  - lineage_present
+  - version_present
+  - rollback_reference_when_applicable
+  - promotion_status_defined
+applies_to:
+  - canonical-promotion
+status: active
