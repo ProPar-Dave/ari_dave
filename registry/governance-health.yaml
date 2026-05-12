@@ -1,0 +1,10 @@
+registry_version: 1.0.0
+last_updated: 2026-05-12
+health_dimensions:
+  - rollback_coverage
+  - lineage_coverage
+  - snapshot_integrity
+  - drift_visibility
+  - invariant_coverage
+  - trust_boundary_visibility
+systems: []
