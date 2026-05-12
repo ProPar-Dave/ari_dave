@@ -1,0 +1,5 @@
+registry_version: 1.0.0
+last_updated: 2026-05-12
+causal_relationships: []
+notes: >
+  Registry reserved for operational causality relationships between events, artifacts, runtime states, and governance transitions.
