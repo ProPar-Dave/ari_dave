@@ -1,0 +1,13 @@
+schema_version: 1.0.0
+event_schema:
+  required_fields:
+    - event_id
+    - event_type
+    - initiating_actor
+    - created_at
+  recommended_fields:
+    - affected_entities
+    - related_snapshots
+    - resulting_state
+    - trust_transition
+    - notes
