@@ -1,0 +1,37 @@
+snapshot_strategy:
+  strategy_id: SNAPSHOT-STRATEGY-SUPABASE-EDGE-001
+
+  preservation_model:
+    deterministic: true
+    replayable: true
+    continuity_aware: true
+
+  snapshot_triggers:
+    - before_runtime_mutation
+    - before_ai_generated_change
+    - before_deployment
+    - after_canonical_promotion
+    - after_reconciliation
+
+  required_snapshot_assets:
+    - source_files
+    - runtime_metadata
+    - governance_state
+    - trust_state
+    - topology_state
+    - recovery_metadata
+
+  verification_requirements:
+    - parity_tests
+    - typecheck
+    - lineage_visibility
+    - rollback_visibility
+
+  storage:
+    canonical_persistence_layer: git
+    governance_layer: ari
+
+  recovery_requirements:
+    deterministic_recovery_required: true
+    replay_chain_required: true
+    continuity_validation_required: true
