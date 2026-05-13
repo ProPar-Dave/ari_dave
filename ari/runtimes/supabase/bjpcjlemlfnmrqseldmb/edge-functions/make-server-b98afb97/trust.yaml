@@ -1,0 +1,10 @@
+trust:
+  canonical_source: repository
+  mutation_policy:
+    ai_direct_mutation: prohibited
+    human_review_required: true
+  verification:
+    parity_tests_required: true
+    drift_checks_required: true
+  trust_state:
+    current: trusted
