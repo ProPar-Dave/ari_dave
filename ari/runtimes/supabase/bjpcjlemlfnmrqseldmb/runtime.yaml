@@ -1,0 +1,15 @@
+runtime_id: bjpcjlemlfnmrqseldmb
+runtime_type: supabase
+classification:
+  operational_criticality: high
+  continuity_sensitivity: high
+  mutation_velocity: high
+ownership:
+  primary_owner: product-design
+  operational_owner: engineering
+trust_model:
+  governed: true
+  ai_mutation_allowed: controlled
+  human_review_required: true
+recovery:
+  deterministic_recovery_required: true
