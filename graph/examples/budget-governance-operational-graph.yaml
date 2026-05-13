@@ -1,0 +1,41 @@
+graph_example_version: 1.0.0
+last_updated: 2026-05-12
+entities:
+  - entity_id: INV-BUDGET-KERNEL-001
+    entity_type: invariant
+    state: STATE-CANONICAL
+
+  - entity_id: ART-BUDGET-CALC-001
+    entity_type: governed-calculation-engine
+    state: STATE-CANONICAL
+
+  - entity_id: SYS-BUDGET-RUNTIME-001
+    entity_type: runtime-system
+    state: STATE-CANONICAL
+
+  - entity_id: EVT-BUDGET-MUTATION-001
+    entity_type: operational-event
+    state: STATE-CANDIDATE
+
+relationships:
+  - edge_id: EDGE-BUDGET-0001
+    relationship_type: REL-CONSTRAINED-BY
+    source_entity: ART-BUDGET-CALC-001
+    target_entity: INV-BUDGET-KERNEL-001
+
+  - edge_id: EDGE-BUDGET-0002
+    relationship_type: REL-PROJECTED-INTO
+    source_entity: ART-BUDGET-CALC-001
+    target_entity: SYS-BUDGET-RUNTIME-001
+
+  - edge_id: EDGE-BUDGET-0003
+    relationship_type: REL-AFFECTS
+    source_entity: EVT-BUDGET-MUTATION-001
+    target_entity: SYS-BUDGET-RUNTIME-001
+
+events:
+  - EVT-BUDGET-MUTATION-001
+
+states:
+  - STATE-CANONICAL
+  - STATE-CANDIDATE
