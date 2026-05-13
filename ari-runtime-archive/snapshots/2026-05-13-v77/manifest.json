@@ -1,0 +1,46 @@
+{
+  "ariSnapshotVersion": "1.0.0",
+  "snapshotId": "2026-05-13-v77",
+  "capturedAt": "2026-05-13T00:00:00-04:00",
+  "source": {
+    "provider": "supabase",
+    "projectId": "bjpcjlemlfnmrqseldmb",
+    "edgeFunctionSlug": "make-server-b98afb97",
+    "version": 77,
+    "status": "ACTIVE",
+    "verifyJwt": true,
+    "entrypointPath": "/tmp/user_fn_bjpcjlemlfnmrqseldmb_1102aa9d-c3be-42d2-9e2a-9c5cd974c9c2_77/source/index.tsx",
+    "bundleSha256": "b47f64a07def7f69666943876b9995b6f18f62a789cbeed7e77dbbe9ec799946"
+  },
+  "capturePolicy": {
+    "canonicalStorage": "git",
+    "manualChatCanvasIsNonCanonical": true,
+    "beforeMutationRequiredSteps": [
+      "snapshot runtime",
+      "preserve source",
+      "generate manifest",
+      "generate hashes",
+      "update governance metadata",
+      "then allow mutation"
+    ]
+  },
+  "files": [
+    { "path": "source/kv_store.tsx", "status": "captured" },
+    { "path": "source/bvs-drill-registry.tsx", "status": "captured" },
+    { "path": "source/bvs-drill-column-resolver.tsx", "status": "captured" },
+    { "path": "source/bvs-drill-planner.tsx", "status": "captured" },
+    { "path": "source/bvs-drill-renderer.tsx", "status": "captured" },
+    { "path": "source/bvs-drill-engine.tsx", "status": "captured" },
+    {
+      "path": "source/index.tsx",
+      "status": "pending_large_file_capture",
+      "reason": "Large live runtime file should be captured by snapshot orchestrator or chunked archive to avoid connector truncation or lossy manual transfer."
+    },
+    {
+      "path": "source/bvs-queries.tsx",
+      "status": "pending_large_file_capture",
+      "reason": "Large live runtime file should be captured by snapshot orchestrator or chunked archive to avoid connector truncation or lossy manual transfer."
+    }
+  ],
+  "nextRequiredAction": "Run tools/snapshot-orchestrator against Supabase project bjpcjlemlfnmrqseldmb and function make-server-b98afb97, then replace pending entries with captured entries and regenerate hashes.json."
+}
