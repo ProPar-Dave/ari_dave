@@ -1,0 +1,55 @@
+graph_example_version: 1.0.0
+last_updated: 2026-05-12
+entities:
+  - entity_id: ENTITY-PROMPT-001
+    entity_type: prompt
+    state: STATE-CANDIDATE
+
+  - entity_id: ENTITY-SPEC-001
+    entity_type: specification
+    state: STATE-CANDIDATE
+
+  - entity_id: ART-SUPABASE-EDGE-0001
+    entity_type: edge-function
+    state: STATE-DRIFTED
+
+  - entity_id: SYS-SUPABASE-001
+    entity_type: runtime-system
+    state: STATE-RECOVERED
+
+  - entity_id: SNAP-SUPABASE-20260512-183000
+    entity_type: runtime-snapshot
+    state: STATE-CANONICAL
+
+relationships:
+  - edge_id: EDGE-0001
+    relationship_type: REL-GENERATED-BY
+    source_entity: ENTITY-SPEC-001
+    target_entity: ENTITY-PROMPT-001
+
+  - edge_id: EDGE-0002
+    relationship_type: REL-CONSTRAINED-BY
+    source_entity: ART-SUPABASE-EDGE-0001
+    target_entity: CONTRACT-ROLLBACK-BEFORE-MUTATION
+
+  - edge_id: EDGE-0003
+    relationship_type: REL-PROJECTED-INTO
+    source_entity: ART-SUPABASE-EDGE-0001
+    target_entity: SYS-SUPABASE-001
+
+  - edge_id: EDGE-0004
+    relationship_type: REL-RESTORED-BY
+    source_entity: SYS-SUPABASE-001
+    target_entity: SNAP-SUPABASE-20260512-183000
+
+events:
+  - event_id: EVT-0001
+    event_type: EVENT-MUTATED
+
+  - event_id: EVT-0002
+    event_type: EVENT-ROLLED-BACK
+
+states:
+  - STATE-DRIFTED
+  - STATE-RECOVERED
+  - STATE-CANONICAL
