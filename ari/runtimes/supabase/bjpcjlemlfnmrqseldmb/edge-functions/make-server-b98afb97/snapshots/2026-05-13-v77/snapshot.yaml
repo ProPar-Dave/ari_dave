@@ -1,0 +1,29 @@
+snapshot_id: SNAP-2026-05-13-V77
+artifact_id: make-server-b98afb97
+runtime_id: bjpcjlemlfnmrqseldmb
+snapshot_timestamp: 2026-05-13T00:00:00Z
+snapshot_type: deterministic_runtime_snapshot
+runtime_projection:
+  provider: supabase
+  deployed_version: 77
+  environment: production
+continuity_state:
+  semantic_continuity_preserved: true
+  lineage_visible: true
+  recovery_boundary_established: true
+trust_state:
+  classification: trusted
+  reviewed: true
+verification:
+  parity_tests: required
+  typecheck: required
+  rollback_visibility: required
+snapshot_assets:
+  - source_files
+  - runtime_metadata
+  - governance_manifests
+recovery:
+  deterministic_recovery_supported: true
+  replay_chain_preserved: true
+notes: >
+  Canonical deterministic operational recovery boundary for make-server-b98afb97.
