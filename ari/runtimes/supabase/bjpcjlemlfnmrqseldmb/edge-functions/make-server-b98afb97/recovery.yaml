@@ -1,0 +1,10 @@
+recovery:
+  strategy:
+    - restore_snapshot
+    - replay_mutations
+    - verify_parity
+    - verify_lineage
+  minimum_recovery_requirements:
+    - deterministic_outputs
+    - explainable_state
+    - reconciliation_integrity
