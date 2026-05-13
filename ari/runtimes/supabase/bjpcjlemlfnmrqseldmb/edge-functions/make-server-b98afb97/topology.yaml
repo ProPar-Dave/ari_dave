@@ -1,0 +1,13 @@
+topology:
+  upstream:
+    - postgres
+    - budgets_daily
+    - census_sources
+  downstream:
+    - budget_vs_spend_ui
+    - reporting_engine
+    - drill_views
+  governed_interfaces:
+    - reconciliation
+    - lineage
+    - aggregation
