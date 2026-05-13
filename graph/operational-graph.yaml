@@ -1,0 +1,10 @@
+graph_version: 1.0.0
+last_updated: 2026-05-12
+entities: []
+relationships: []
+events: []
+states: []
+trust_boundaries: []
+runtime_bindings: []
+notes: >
+  Canonical unified operational graph for ARI semantic governance relationships.
