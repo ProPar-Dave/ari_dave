@@ -1,0 +1,27 @@
+artifact_id: make-server-b98afb97
+artifact_type: edge_function
+status:
+  canonical: true
+  active: true
+classification:
+  semantic_complexity: very_high
+  operational_risk: high
+  runtime_criticality: high
+responsibilities:
+  - runtime_orchestration
+  - query_execution
+  - aggregation
+  - lineage
+  - reconciliation
+  - explainability
+dependencies:
+  - kv_store
+  - bvs-queries
+  - bvs-drill-engine
+  - bvs-types
+interfaces:
+  inbound:
+    - api_routes
+  outbound:
+    - postgres
+    - kv_store
