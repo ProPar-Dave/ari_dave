@@ -1,0 +1,14 @@
+mutations:
+  - id: mut-001
+    timestamp: 2026-05-13T00:00:00Z
+    actor:
+      type: ai
+      system: claude
+    change_type: runtime_expansion
+    affected:
+      - bvs-drill-engine.tsx
+    rationale: >
+      Added governed drill decomposition support.
+    verification:
+      parity_tests: passed
+      typecheck: passed
