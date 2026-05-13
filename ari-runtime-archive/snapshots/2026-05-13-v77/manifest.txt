@@ -1,0 +1,8 @@
+SNAPSHOT_ID=SNAP-2026-05-13-V77
+RUNTIME_ID=bjpcjlemlfnmrqseldmb
+ARTIFACT_ID=make-server-b98afb97
+SNAPSHOT_TYPE=deterministic_runtime_snapshot
+ENVIRONMENT=production
+DEPLOYED_VERSION=77
+CONTINUITY_STATE=preserved
+TRUST_STATE=trusted
