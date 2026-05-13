@@ -1,0 +1,21 @@
+{
+  "ariSnapshotVersion": "1.0.0",
+  "snapshotId": "2026-05-13-v77",
+  "algorithm": "sha256",
+  "status": "partial",
+  "sourceBundleSha256": "b47f64a07def7f69666943876b9995b6f18f62a789cbeed7e77dbbe9ec799946",
+  "notes": [
+    "Per-file hashes must be generated from the exact materialized Git files after index.tsx and bvs-queries.tsx are captured.",
+    "Do not treat this hashes.json as a completed integrity proof until status is changed to complete by the snapshot orchestrator."
+  ],
+  "files": {
+    "source/kv_store.tsx": { "status": "captured_hash_pending" },
+    "source/bvs-drill-registry.tsx": { "status": "captured_hash_pending" },
+    "source/bvs-drill-column-resolver.tsx": { "status": "captured_hash_pending" },
+    "source/bvs-drill-planner.tsx": { "status": "captured_hash_pending" },
+    "source/bvs-drill-renderer.tsx": { "status": "captured_hash_pending" },
+    "source/bvs-drill-engine.tsx": { "status": "captured_hash_pending" },
+    "source/index.tsx": { "status": "pending_large_file_capture" },
+    "source/bvs-queries.tsx": { "status": "pending_large_file_capture" }
+  }
+}
