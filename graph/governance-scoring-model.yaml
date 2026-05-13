@@ -1,0 +1,28 @@
+model_version: 1.0.0
+last_updated: 2026-05-12
+scoring_dimensions:
+  - scoring_dimension: lineage_visibility
+  - scoring_dimension: rollback_coverage
+  - scoring_dimension: trust_explainability
+  - scoring_dimension: runtime_projection_visibility
+  - scoring_dimension: semantic_continuity
+  - scoring_dimension: drift_awareness
+  - scoring_dimension: causality_preservation
+score_levels:
+  - score_level: GS0
+    meaning: unmanaged
+
+  - score_level: GS1
+    meaning: minimally-governed
+
+  - score_level: GS2
+    meaning: governance-visible
+
+  - score_level: GS3
+    meaning: continuity-aware
+
+  - score_level: GS4
+    meaning: trust-aware
+
+  - score_level: GS5
+    meaning: operationally-resilient
