@@ -1,0 +1,21 @@
+entity_id: ART-SUPABASE-EDGE-0001
+entity_type: edge-function
+name: budget-engine-edge-function
+status: candidate
+state: STATE-CANDIDATE
+trust_boundary: TB-AI-GENERATED-001
+version: 0.1.0
+owner: unassigned
+created_at: 2026-05-12T00:00:00Z
+updated_at: 2026-05-12T00:00:00Z
+relationships:
+  - REL-CONSTRAINED-BY: CONTRACT-ROLLBACK-BEFORE-MUTATION
+  - REL-PROJECTED-INTO: SYS-SUPABASE-001
+events:
+  - EVENT-MUTATED
+snapshots:
+  - SNAP-SUPABASE-20260512-183000
+contracts:
+  - CONTRACT-SEMANTIC-CONTINUITY
+notes: >
+  Example governed Supabase edge function entity.
