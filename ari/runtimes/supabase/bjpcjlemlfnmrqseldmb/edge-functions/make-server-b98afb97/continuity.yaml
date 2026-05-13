@@ -1,0 +1,17 @@
+continuity:
+  continuity_class: governed_runtime
+  preserve:
+    - semantic_intent
+    - lineage_behavior
+    - reconciliation_logic
+    - ordering_rules
+    - deterministic_drill_behavior
+  continuity_failures:
+    - runtime_drift
+    - hidden_mutation
+    - orphaned_logic
+    - unexplained_reconciliation_changes
+  required_recovery_state:
+    deterministic: true
+    explainable: true
+    lineage_preserved: true
